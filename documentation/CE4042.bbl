@@ -1,0 +1,172 @@
+\begin{thebibliography}{10}
+
+\bibitem{Guo2010HumanAE}
+Guodong Guo and Guowang Mu.
+\newblock Human age estimation: What is the influence across race and gender?
+\newblock {\em 2010 IEEE Computer Society Conference on Computer Vision and
+  Pattern Recognition - Workshops}, pages 71--78, 2010.
+
+\bibitem{pmlr-v81-buolamwini18a}
+Joy Buolamwini and Timnit Gebru.
+\newblock Gender shades: Intersectional accuracy disparities in commercial
+  gender classification.
+\newblock In Sorelle~A. Friedler and Christo Wilson, editors, {\em Proceedings
+  of the 1st Conference on Fairness, Accountability and Transparency},
+  volume~81 of {\em Proceedings of Machine Learning Research}, pages 77--91.
+  PMLR, 23--24 Feb 2018.
+
+\bibitem{kumar2011describable}
+Neeraj Kumar, Alexander Berg, Peter~N Belhumeur, and Shree Nayar.
+\newblock Describable visual attributes for face verification and image search.
+\newblock {\em IEEE Transactions on Pattern Analysis and Machine Intelligence},
+  33(10):1962--1977, 2011.
+
+\bibitem{layne2012person}
+Ryan Layne, Timothy~M Hospedales, Shaogang Gong, and Q~Mary.
+\newblock Person re-identification by attributes.
+\newblock In {\em Bmvc}, volume~2, page~8, 2012.
+
+\bibitem{li2014clothing}
+Annan Li, Luoqi Liu, Kang Wang, Si~Liu, and Shuicheng Yan.
+\newblock Clothing attributes assisted person reidentification.
+\newblock {\em IEEE Transactions on Circuits and Systems for Video Technology},
+  25(5):869--878, 2014.
+
+\bibitem{su2017multi}
+Chi Su, Fan Yang, Shiliang Zhang, Qi~Tian, Larry~Steven Davis, and Wen Gao.
+\newblock Multi-task learning with low rank attribute embedding for
+  multi-camera person re-identification.
+\newblock {\em IEEE transactions on pattern analysis and machine intelligence},
+  40(5):1167--1181, 2017.
+
+\bibitem{grgic2011scface}
+Mislav Grgic, Kresimir Delac, and Sonja Grgic.
+\newblock Scface--surveillance cameras face database.
+\newblock {\em Multimedia tools and applications}, 51(3):863--879, 2011.
+
+\bibitem{amos2016openface}
+Brandon Amos, Bartosz Ludwiczuk, Mahadev Satyanarayanan, et~al.
+\newblock Openface: A general-purpose face recognition library with mobile
+  applications.
+\newblock {\em CMU School of Computer Science}, 6(2):20, 2016.
+
+\bibitem{baltrusaitis2018openface}
+Tadas Baltrusaitis, Amir Zadeh, Yao~Chong Lim, and Louis-Philippe Morency.
+\newblock Openface 2.0: Facial behavior analysis toolkit.
+\newblock In {\em 2018 13th IEEE international conference on automatic face \&
+  gesture recognition (FG 2018)}, pages 59--66. IEEE, 2018.
+
+\bibitem{chakraborty2017makes}
+Abhijnan Chakraborty, Johnnatan Messias, Fabricio Benevenuto, Saptarshi Ghosh,
+  Niloy Ganguly, and Krishna Gummadi.
+\newblock Who makes trends? understanding demographic biases in crowdsourced
+  recommendations.
+\newblock In {\em Proceedings of the International AAAI Conference on Web and
+  Social Media}, volume~11, pages 22--31, 2017.
+
+\bibitem{reis2017demographics}
+Julio~CS Reis, Haewoon Kwak, Jisun An, Johnnatan Messias, and Fabricio
+  Benevenuto.
+\newblock Demographics of news sharing in the us twittersphere.
+\newblock In {\em Proceedings of the 28th ACM conference on hypertext and
+  social media}, pages 195--204, 2017.
+
+\bibitem{wang2017polarized}
+Yu~Wang, Yang Feng, Zhe Hong, Ryan Berger, and Jiebo Luo.
+\newblock How polarized have we become? a multimodal classification of trump
+  followers and clinton followers.
+\newblock In {\em International conference on social informatics}, pages
+  440--456. Springer, 2017.
+
+\bibitem{won2017protest}
+Donghyeon Won, Zachary~C Steinert-Threlkeld, and Jungseock Joo.
+\newblock Protest activity detection and perceived violence estimation from
+  social media images.
+\newblock In {\em Proceedings of the 25th ACM international conference on
+  Multimedia}, pages 786--794, 2017.
+
+\bibitem{xi2020understanding}
+Nan Xi, Di~Ma, Marcus Liou, Zachary~C Steinert-Threlkeld, Jason Anastasopoulos,
+  and Jungseock Joo.
+\newblock Understanding the political ideology of legislators from social media
+  images.
+\newblock In {\em Proceedings of the international aaai conference on web and
+  social media}, volume~14, pages 726--737, 2020.
+
+\bibitem{kolesnikov2020big}
+Alexander Kolesnikov, Lucas Beyer, Xiaohua Zhai, Joan Puigcerver, Jessica Yung,
+  Sylvain Gelly, and Neil Houlsby.
+\newblock Big transfer (bit): General visual representation learning.
+\newblock In {\em European conference on computer vision}, pages 491--507.
+  Springer, 2020.
+
+\bibitem{mahajan2018exploring}
+Dhruv Mahajan, Ross Girshick, Vignesh Ramanathan, Kaiming He, Manohar Paluri,
+  Yixuan Li, Ashwin Bharambe, and Laurens Van Der~Maaten.
+\newblock Exploring the limits of weakly supervised pretraining.
+\newblock In {\em Proceedings of the European conference on computer vision
+  (ECCV)}, pages 181--196, 2018.
+
+\bibitem{ngiam2018domain}
+Jiquan Ngiam, Daiyi Peng, Vijay Vasudevan, Simon Kornblith, Quoc~V Le, and
+  Ruoming Pang.
+\newblock Domain adaptive transfer learning with specialist models.
+\newblock {\em arXiv preprint arXiv:1811.07056}, 2018.
+
+\bibitem{strubell2019energy}
+Emma Strubell, Ananya Ganesh, and Andrew McCallum.
+\newblock Energy and policy considerations for deep learning in nlp.
+\newblock {\em arXiv preprint arXiv:1906.02243}, 2019.
+
+\bibitem{Rothe-IJCV-2018}
+Rasmus Rothe, Radu Timofte, and Luc~Van Gool.
+\newblock Deep expectation of real and apparent age from a single image without
+  facial landmarks.
+\newblock {\em International Journal of Computer Vision}, 126(2-4):144--157,
+  2018.
+
+\bibitem{Rothe-ICCVW-2015}
+Rasmus Rothe, Radu Timofte, and Luc~Van Gool.
+\newblock Dex: Deep expectation of apparent age from a single image.
+\newblock In {\em IEEE International Conference on Computer Vision Workshops
+  (ICCVW)}, December 2015.
+
+\bibitem{ILSVRC15}
+Olga Russakovsky, Jia Deng, Hao Su, Jonathan Krause, Sanjeev Satheesh, Sean Ma,
+  Zhiheng Huang, Andrej Karpathy, Aditya Khosla, Michael Bernstein,
+  Alexander~C. Berg, and Li~Fei-Fei.
+\newblock {ImageNet Large Scale Visual Recognition Challenge}.
+\newblock {\em International Journal of Computer Vision (IJCV)},
+  115(3):211--252, 2015.
+
+\bibitem{zhifei2017cvpr}
+Song~Yang Zhang, Zhifei and Hairong Qi.
+\newblock Age progression/regression by conditional adversarial autoencoder.
+\newblock In {\em IEEE Conference on Computer Vision and Pattern Recognition
+  (CVPR)}. IEEE, 2017.
+
+\bibitem{karkkainenfairface}
+Kimmo Karkkainen and Jungseock Joo.
+\newblock Fairface: Face attribute dataset for balanced race, gender, and age
+  for bias measurement and mitigation.
+\newblock In {\em Proceedings of the IEEE/CVF Winter Conference on Applications
+  of Computer Vision}, pages 1548--1558, 2021.
+
+\bibitem{simonyan2014very}
+Karen Simonyan and Andrew Zisserman.
+\newblock Very deep convolutional networks for large-scale image recognition.
+\newblock {\em arXiv preprint arXiv:1409.1556}, 2014.
+
+\bibitem{chollet2017xception}
+Fran{\c{c}}ois Chollet.
+\newblock Xception: Deep learning with depthwise separable convolutions.
+\newblock In {\em Proceedings of the IEEE conference on computer vision and
+  pattern recognition}, pages 1251--1258, 2017.
+
+\bibitem{he2016deep}
+Kaiming He, Xiangyu Zhang, Shaoqing Ren, and Jian Sun.
+\newblock Deep residual learning for image recognition.
+\newblock In {\em Proceedings of the IEEE conference on computer vision and
+  pattern recognition}, pages 770--778, 2016.
+
+\end{thebibliography}

@@ -1,0 +1,53 @@
+This is BibTeX, Version 0.99d (TeX Live 2022)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: CE4042.aux
+The style file: unsrt.bst
+Database file #1: CE4042.bib
+Warning--can't use both volume and number fields in layne2012person
+Warning--can't use both volume and number fields in chakraborty2017makes
+Name 1 in "Zhang, Zhifei, Song, Yang, and Qi, Hairong" has a comma at the end for entry zhifei2017cvpr
+while executing---line 944 of file unsrt.bst
+Too many commas in name 1 of "Zhang, Zhifei, Song, Yang, and Qi, Hairong" for entry zhifei2017cvpr
+while executing---line 944 of file unsrt.bst
+You've used 26 entries,
+            1791 wiz_defined-function locations,
+            603 strings with 9446 characters,
+and the built_in function-call counts, 8180 in all, are:
+= -- 720
+> -- 395
+< -- 18
++ -- 140
+- -- 114
+* -- 558
+:= -- 1194
+add.period$ -- 83
+call.type$ -- 26
+change.case$ -- 26
+chr.to.int$ -- 0
+cite$ -- 28
+duplicate$ -- 393
+empty$ -- 768
+format.name$ -- 114
+if$ -- 1898
+int.to.chr$ -- 0
+int.to.str$ -- 26
+missing$ -- 26
+newline$ -- 133
+num.names$ -- 28
+pop$ -- 105
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 242
+stack$ -- 0
+substring$ -- 562
+swap$ -- 164
+text.length$ -- 18
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 2
+while$ -- 78
+width$ -- 28
+write$ -- 292
+(There were 2 error messages)

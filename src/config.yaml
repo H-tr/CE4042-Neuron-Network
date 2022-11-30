@@ -1,0 +1,15 @@
+data:
+  db: FairFace
+
+model:
+  model_name: ResNet152V2
+  img_size: 224
+
+train:
+  optimizer_name: adam
+  lr: 1e-4
+  epochs: 30
+  batch_size: 64
+
+wandb:
+  project: null

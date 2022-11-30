@@ -1,0 +1,41 @@
+{\rtf1\ansi\ansicpg936\cocoartf2513
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 \\section\{Introduction\}\
+\
+Gender, race classification and age estimation based on face images are three common tasks conducted by human eyes on a daily basis, and they also form an important field that has been long researched by computer vision scientists. Gender race classification and age estimation have a broad application in real world scenarios, such as security and e-commerce, to name a few. Therefore, a high performance model tackling these problems is of great significance. However, different from face detection and recognition tasks, accurate gender race classification and age estimation involve multiple challenges. Firstly, the gradual aging process results in similar facial appearances corresponding to similar ages, while large age differences lead to notably different facial appearances. Secondly, most of the datasets available are small and imbalanced, which may introduce bias to experiment results. Lastly, the facial appearance variation pattern due to aging is complex and may be caused by multiple intrinsic and extrinsic factors, such as race, gender and lifestyle. Gender age classification and age estimation can be formulated into the following problem, given a latent embeddings of the facial images $\\mathcal\{X\}$, a gender as one of $\\\{g\\\}_1^c$ and an race as one of $\\\{r\\\}_1^c$ is classified corresponding to an image $x$, $g_i\\in\\mathbb\{Z\}^+$, $r_i\\in\\mathbb\{Z\}^+$, $x\\in\\mathcal\{X\}$. It is worth noting that age estimation are commonly formulated into a scalar regression problem, where age is represented as $a\\in\\mathbb\{R\}^+$ that is continual. However, in our setting age is represented as $a\\in\\mathbb\{Z\}^+$ that corresponds to discrete age groups. This is to utilize datasets with facial images not labeled with specific age values but age groups. While for datasets whose images are labeled with specific age values, the interval between age groups would be set to 1, which will convert the classification problem equivalent to the regression problem. The successful use of Deep Learning-based methods in computer vision tasks has paved the path for deriving end-to-end gender race classification and age estimation models, and Convolutional Neural Networks are the most representative ones. CNN-based methods learn local features based on the age differences as a metric measure. \
+\
+Most studies on gender race classification and age estimation use end-to-end models and have achieved reasonable performance. In this work, we propose a chained 2-stage model to further improve the performance. which is depicted in Fig. \\textcolor\{red\}\{1\}. Firstly, we employ the idea of Transfer Learning by using a pre-trained model trained on Wiki and imdb datasets, and perform downstream fine-tuning on our dataset which are in the same domain as Wiki and imdb, to leverage the strong capacity of large models and save computational costs by skipping the early epochs. Secondly, to verify our intuitive insight that age race estimation of different genders tend to exhibit different patterns, for example, females are more effective at hiding their ages due to social commentaries, we employ a gender-specific stacked fusion model that genders are classified first, then the image is fed into different age race estimation models corresponding to the former prediction. Thirdly, we look into the model under-performance problem caused by training on unbalanced datasets, and conduct experiments to reveal its impact.\
+\
+In particular, we propose the following ideas:\
+\
+$\\bullet$ We propose a gender-specific fusion model with a chained architecture for the gender race classification and age estimation problems, considering the real-world social commentaries. \
+\
+$\\bullet$ Our proposed fusion model achieves a higher accuracy than common end-to-end models when applied to contemporary facial image datasets UTKFace and FairFace. \
+\
+\\section\{Related Work\}\
+\
+Despite the inherent challenges brought on by the different facial aging characteristics, variations between ethnicities, gender, and lifestyles, human observers can reliably estimate age based on the face on a daily basis. The fundamental work of Buolamwini and Gebru [1] showed the significance of ethnicity and gender in face analysis and recognition, and it is particularly interesting. Guo and Mu [2] developed a two-step process in which the age is individually estimated for each gender and ethnicity group after first classifying gender and ethnicity.\
+\
+\\subsection\{Face Attribute Recognition\} \
+The task of classifying different human characteristics from facial appearance, such as gender, race, age, emotions, expressions, or other facial aspects, is known as face attribute recognition. Multiple computer vision systems have included face attribute recognition as a minor component. For instance, Kumar et al. [3] employed features for face verification that included facial characteristics that characterize individual traits, such as gender, race, hair style, expressions, and accessories. Additionally, attributes are frequently used to re-identify people in photos or videos by fusing characteristics of the human face and body [4, 5, 6], which is particularly successful when faces are obscured or too small. These systems can be used for security purposes such as CCTV monitoring or electronic device authentication (like unlocking cellphones) [7]. Face attribute recognition is frequently used for demographic research in social science and marketing, which aims to determine how social actions of people relate to their backgrounds in terms of demographics. Social scientists, who traditionally did not utilize photos, have started to use images of people to infer their demographic traits and evaluate their activities in many research using commercial services and off-the-shelf techniques [8, 9]. Examples include demographic studies of social media users that use their images [10, 11, 12, 13, 14].\
+\
+\\subsection\{Transfer Learning\} \
+\
+Deep neural network architectures such as convolutional neural networks (CNNs) and more recently transformers have achieved many successes in image classification tasks. It has been consistently shown that these models work best when big models can be trained and there is an abundance of labelled data available for the task [15, 16, 17]. However, there are numerous situations in real life where the need for a lot of training data cannot be satisfied. Among them are:\
+\
+$\\bullet$ Insufficient data due to privacy concerns or the rarity of the data. For instance, because to the rarity of the examples themselves as well as privacy considerations, training data for novel and rare disease identification tasks in the medical area is scarce. \
+\
+$\\bullet$ The cost of data collection and/or labeling is prohibitive. For instance, only highly qualified subject-matter specialists can perform labeling.\
+\
+We may want to learn from a limited number of training instances for a variety of additional reasons as well: \
+\
+$\\bullet$ From a cognitive science perspective, it is intriguing to make an effort to emulate the human capacity to learn general concepts from a sparse sample size. \
+\
+$\\bullet$ Compute resource limitations could make it difficult to train a big model from random initialization with big data. Consider environmental issues [124]. \
+\
+Transfer learning frequently significantly improves performance in all of these instances. In this paradigm, the trained weights are utilized to initialize a model for the target task after the model has been trained on a similar dataset and task for which additional data are available. The dataset must be sufficiently connected and best practice techniques must be applied for this process to boost performance rather than degrade it.}
